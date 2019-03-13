@@ -1,0 +1,17 @@
+<h1>Dojo Auction House</h1>
+<a href="/Home">Home</a>
+<a href="/Logout">Logout</a>
+
+<p>@ViewBag.auction.title</p>
+<p>Created By: @ViewBag.auction.creator.first_name</p>
+<p>Time Remaining: @ViewBag.auction.expiration - DateTime.Now</p>
+<p>Description: @ViewBag.auction.description</p>
+<p>starting Bid: @ViewBag.auction.bids</p>
+<p>Current Highest Bid: @(ViewBag.top_bid == null ? 0 : ViewBag.top_bid.amount)</p>
+
+<form class="form-group" action="/auctions/@ViewBag.auction.id/bids/new" method="post">
+    <input type="text" placeholder="Your Bid Goes Here..." name="deposit">
+    <button type"submit">Bid!!!</button>
+</form>
+
+    

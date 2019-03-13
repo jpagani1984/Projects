@@ -1,0 +1,23 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers;
+@{
+    ViewData["Title"] = "New";
+}
+@model Register
+<h1>New Auction</h1>
+<a href="/Home">Home</a>
+<a href="/Logout">Logout</a>
+<form class="form-group" asp-action="Create" asp-controller="Home" method="post">
+    <label for="title">Product Name:</label>
+    <input type="text" name="title">
+
+    <label for="amount">Starting Bid:</label>
+    <input type="number" name="amount">
+
+    <label for="description">Description</label>
+    <input type="text" name="description">
+
+    <label for="date">End Date:</label>
+    <input type="date" name="enddate">
+
+    <button>Create Auction</button>
+</form>

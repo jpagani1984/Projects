@@ -1,0 +1,61 @@
+@{
+    ViewData["Title"] = "Home";
+}
+<a href="/Logout">Log Off</a>
+<h1>Current Auctions</h1>
+<h2>Welcome @ViewBag.user.first_name</h2>
+
+<table class="table table-striped table-dark table-bordered">
+    <tr>
+        <th>Product</th>
+        <th>Seller</th>
+        <th>Top Bid</th>
+        <th>Time Remaining</th>
+        <th>Actions</th>
+    </tr>
+    
+        @foreach(var auction in ViewBag.auction)
+        {
+            bool flag = true;
+            @foreach(var bid in @auction.bids)
+            {
+                @if(@ViewBag.UserId == @bid.creatorId)
+                {
+                    flag = false; 
+                }
+            }
+            <tr>
+                <td><a href="/auctions/@auction.id">@auction.title</a></td>
+                <td>@auction.creator.first_name</td>
+                <td>
+                    @{
+                        float max = 0;
+                        foreach (var bid in auction.bids) {
+                            if (bid.amount > max) {
+                                max = bid.amount;
+                            }   
+                        }
+                        @: @max
+                    }
+                </td>
+                <td>@(auction.expiration - DateTime.Now)</td>
+                @if(auction.creatorId == ViewBag.user.id)
+                {
+                    <td><a href="/delete/@auction.id">Delete</a></td>
+                } 
+                else if(flag == false) 
+                {
+                    <td><a href="/leave/@auction.id"></a></td>
+                }
+                else
+                {
+                    <td><a href="/join/@auction.id"></a></td>
+                }
+            </tr>
+        }
+        <form action="New">
+            <button type"submit">New Auction</button>
+        </form>
+
+        <p>Your Current Wallet: @ViewBag.balance</p>
+</table>
