@@ -1,0 +1,50 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers;
+@{
+    ViewData["Title"] = "Home";
+}
+<body>
+    <div id="reg">
+        <h1>Registration</h1>
+            <h2>Welcome!!</h2>  
+            @model Register
+            <form class="form-group" asp-action="Register" asp-controller="Home"method="post">
+                <span asp-validation-for="firstname"></span>
+                    <label asp-for="firstname">First Name</label>
+                        <input asp-for="firstname" id="textbox" type="text">
+                <br>
+                <span asp-validation-for="lastname"></span>
+                    <label asp-for="lastname">Last Name</label>
+                        <input asp-for="lastname"  id="textbox" type="text">
+                <br>
+                <span asp-validation-for="alias"></span>
+                    <label asp-for="alias">Alias</label>
+                        <input asp-for="alias"  id="textbox" type="text">
+                <br>
+                <span asp-validation-for="email"></span>
+                    <label asp-for="email">Email</label>
+                        <input asp-for="email"  id="textbox" type="text">
+                <br>
+                <span asp-validation-for="password"></span>
+                    <label asp-for="password">Password</label>
+                        <input asp-for="password"  id="textbox" type="password">
+                <br>
+                <span asp-validation-for="confpassword"></span>
+                    <label asp-for="confpassword">Confirm Password</label>
+                        <input asp-for="confpassword"  id="textbox" type="password">
+                <br>
+                <button type="submit">REGISTER</button>
+            </form>
+
+            <form class="form-group" asp-action="LoginMethod" asp-controller="Home"method="post">
+                    <span asp-validation-for="email"></span>
+                    <label asp-for="email">Email</label>
+                        <input asp-for="email"  id="textbox" type="text">
+                    <br>
+                    <span asp-validation-for="password"></span>
+                    <label asp-for="password">Password</label>
+                        <input asp-for="password"  id="textbox" type="password">
+                    <br>
+                    <button type="submit">LOGIN</button>
+
+            </form>
+</body>

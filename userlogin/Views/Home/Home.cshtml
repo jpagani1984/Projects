@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Ideas";
+}
+<br>
+<a href="/Logout">Log Off</a>
+
+<h2>Hi @ViewBag.user.alias!!!</h2>
+
+<form class="form-group" asp-action="Create" asp-controller="Home" method="post">
+    <label for="title">Title:</label>
+        <input type="text" name="posts">
+        <button type="submit">IDEA!!!</button>
+</form>
+
+@foreach(var posts in ViewBag.posts)
+{   
+    bool flag = true;
+    @foreach(var liker in @posts.Likers)
+    {
+        @if(@ViewBag.UserId == liker.UserId)
+        {
+            flag = false;
+        }
+    }
+    <p><a href="/userinfo/@posts.UserId">@posts.createdby.alias</a> Says: @posts.posts</p>
+    @if(posts.UserId == ViewBag.user.UserId)
+    {
+        <td><a href="/delete/@posts.PostId">Delete</a></td>
+    } 
+    else if(flag == false) 
+    {
+        <td><a href="/unlike/@posts.PostId">Unlike</a></td>
+    }
+    else
+    {
+        <td><a href="/like/@posts.PostId">Like</a></td>
+    }
+    <td>Liked By:<a href="/postinfo/@posts.PostId"> @posts.Likers.Count people </a></td>
+    <p>____________________________________</p>
+}

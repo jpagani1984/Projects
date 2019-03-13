@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Post Info";
+}
+<br>
+<a href="/Home">Bright Ideas</a> 
+<a href="/Logout">Log Off</a>
+<br>
+<h1><a href="/userinfo/@ViewBag.user.UserId">@ViewBag.user.createdby.alias</a></h1>
+<h2>@ViewBag.user.posts</h2>
+<h3>People Who Liked This Post:</h3>
+<table class="table table-striped table-dark table-bordered">
+   <thead>
+        <tr>
+            <th>Alias</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+   
+    @foreach(var users in @ViewBag.user.Likers)
+    {
+        <tr>
+            <td>@users.user.alias</td>
+            <td>@users.user.firstname @users.user.lastname </td>
+        </tr>
+        
+    }
+</table>
