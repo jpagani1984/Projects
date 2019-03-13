@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.python
+{
+ margin-right: 151px;
+ margin-top:15px;
+ Height:140px;
+ width:420px;
+ display: inline-block;
+}
+#wrapper
+{
+ width: 970px;
+ height: 560px;
+ box-shadow: 5px black;
+ background: linear-gradient(rgb(36,80,118),rgb(36, 87, 133));
+}
+#headertop
+{
+ height:157px;
+ width: 970px;
+ display: inline-block;
+}
+#textsize
+{
+margin-right:50px;
+margin-top: 10px;
+vertical-align: top;
+text-align: right;
+}
+#textsize span
+{
+color: white;
+}
+#textsize a
+{
+color: yellow;
+}
+#search
+{
+text-align: center;
+font-size: 17px;
+border: solid grey 2px;
+height: 26px;
+}
+.search-parent 
+{
+display: inline-block;
+vertical-align: top;
+}
+#searchbar
+{
+Margin-top: 20px;
+padding: 20px;
+margin: 10px;
+height:40px;
+width:320px;
+box-shadow: 3px 3px black;
+border-radius: 15px;
+text-align: right;
+background: rgb(68,68,68);
+}
+#go
+{
+ height: 26px;
+ width:50px;
+ color: white;
+ padding-top:  6px;
+ border-radius: 5px;
+ display: inline-block;
+ text-align: center;
+ border: solid grey;
+ background:rgb(36,80,118);
+}
+#about
+{
+ color: white;
+ margin-top: 25px;
+ margin-left: 52px;
+ height: 40px;
+ width: 800px;
+ border-radius: 5px;
+ text-align: center;
+ word-spacing: 30px;
+ font-size: 25px;
+ padding-top: 15px;
+ box-shadow: 2px 2px black;
+ background: rgb(63,122,173);
+}
+#link
+{
+ color: white;
+ margin-top: 50px;
+ font-size: 18px;
+ line-height: 1.6;
+ text-align: center;
+ margin-right: 10px;
+ display: inline-block;
+ text-decoration: underline;
+ height: 243px;
+ width: 249px;
+}
+#link e
+{
+ color: yellow;
+ font-size: 10px;
+}
+#bulk
+{
+ color: white;
+ text-align: center;
+ margin-top: 20px;
+ height:329px;
+ width: 579px;
+ font-size: 15px;
+ display: inline-block;
+ vertical-align: TOP;
+}
+#lowleft
+{
+ height: 300px;
+ width: 277px;
+ font-size: 12px;
+ margin-left: 121px;
+ text-align: center;
+ vertical-align: top;
+ display: inline-block;
+}
+#bulk e
+{
+ font-size: 20px;
+ color: yellow;
+ line-height: 1.6;
+}
+#bulk f
+{
+ font-size: 20px;
+ color: white;
+ line-height: 1.6;
+}
+.bluebar
+{
+ vertical-align: top;
+ display: inline-block;
+ height: 4px;
+ width:379px;
+ margin-bottom: 5px;
+ list-style-type: square;
+ background: lightskyblue;
+}
+#footer
+{
+padding-top: 41px;
+font-size: 20px;   
+color: silver;
+word-spacing: 30px;
+text-align: center;
+background: linear-gradient(rgb(36,81,119),rgb(95, 149, 194));
+height: 54px;
+width: 970px;
+}
+#lowleft a
+{
+ color: lightskyblue;
+}
+#wrapper h1
+{
+ line-height: 2;
+}
+.bluebar span
+{
+ font-size: 20px; 
+ font-style: bold;
+ line-height: 2;
+ font-weight: bold;
+}
+#footer p
+{
+ line-height: 40px;
+ color: silver;
+ font-size: 10px;
+}
+ul
+{
+ list-style-type: square;
+}
