@@ -1,0 +1,35 @@
+<html>
+    <head>
+       
+        <link rel="stylesheet" href="index.css"> 
+    </head>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    }
+    .button
+    {
+    border-radius: 10px;
+    background-color: limegreen;
+    font-size: 20px;
+    width: 300px;
+    height: 100px;
+    }
+    img
+    {
+        height: 300px;
+        width: 600px;
+    }
+    </style>
+    <title id='title'>High Scores</title>
+    <body>
+        <div id="wall">
+            <form action="/ninja">
+            <h1>HIGH SCORES</h1><button><img class="button" src="img/megaman.jpg" alt=""></button>
+            </form>
+            <% for (var score of scores) { %>
+                <p> <%= score.score%> !</p>
+            <% } %>
+        </div>
+    </body>
