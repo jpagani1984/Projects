@@ -1,0 +1,11 @@
+C:\Users\rac\Desktop\DojoAssignments\C#\toons\bin\Debug\netcoreapp2.0\toons.deps.json
+C:\Users\rac\Desktop\DojoAssignments\C#\toons\bin\Debug\netcoreapp2.0\toons.runtimeconfig.json
+C:\Users\rac\Desktop\DojoAssignments\C#\toons\bin\Debug\netcoreapp2.0\toons.runtimeconfig.dev.json
+C:\Users\rac\Desktop\DojoAssignments\C#\toons\bin\Debug\netcoreapp2.0\toons.dll
+C:\Users\rac\Desktop\DojoAssignments\C#\toons\bin\Debug\netcoreapp2.0\toons.pdb
+C:\Users\rac\Desktop\DojoAssignments\C#\toons\obj\Debug\netcoreapp2.0\toons.csproj.CoreCompileInputs.cache
+C:\Users\rac\Desktop\DojoAssignments\C#\toons\obj\Debug\netcoreapp2.0\toons.AssemblyInfoInputs.cache
+C:\Users\rac\Desktop\DojoAssignments\C#\toons\obj\Debug\netcoreapp2.0\toons.AssemblyInfo.cs
+C:\Users\rac\Desktop\DojoAssignments\C#\toons\obj\Debug\netcoreapp2.0\toons.dll
+C:\Users\rac\Desktop\DojoAssignments\C#\toons\obj\Debug\netcoreapp2.0\toons.pdb
+C:\Users\rac\Desktop\DojoAssignments\C#\toons\obj\Debug\netcoreapp2.0\toons.csprojResolveAssemblyReference.cache
