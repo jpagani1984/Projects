@@ -1,0 +1,216 @@
+*{
+margin: 0;
+padding:0;
+}
+#wrapper
+{
+ width: 978px;
+}
+.globe
+{
+ margin-bottom: -41px;
+ height: 115px;
+ width: 115px;
+}
+#header span
+{
+ text-align: left;
+ margin: 5px;
+ padding-top: 5px;
+ font-size: 45px; 
+ border-bottom: 5px;
+}
+#header e 
+{
+ color: blue;
+}
+#top
+{
+ width: 978px;
+ height: 58px;
+ padding-top: 16px;
+ font-size: 40px;
+ color: white;
+ background: linear-gradient(rgb(37,102,159),rgb(78,128,171),rgb(37,102,159));
+}
+#promo
+{
+ height: 579px;
+ width: 185px;
+ font-size: 15px;
+ padding-top: 20px;
+ font-weight: bold;
+ display: inline-block;
+ padding-left: 5px;
+}
+#promo e
+{
+ color: red;
+}
+#promo f
+{
+ color: rgb(14, 92, 122);
+}
+#video 
+{
+ height: 28px;
+ width: 166px;
+ color: white;
+ padding: 5px;
+ padding-left: 13px;
+ margin-top: 20px;
+ border-radius: 5px;
+ background: linear-gradient(rgb(96,150,194),rgb(48,106,156));
+}
+#more
+{
+ height: 28px;
+ width: 166px;
+ color: white;
+ padding: 5px;
+ padding-left: 10px;
+ margin-top: 5px;
+ margin-bottom: 30px;
+ border-radius: 5px;
+ background: linear-gradient(rgb(237,184,109),rgb(239,115,0));
+}
+#greybar
+{
+ height: 2px;
+ width: 186px;
+ margin-bottom: 30px;
+ background-color: grey;
+ display: inline-block;
+}
+#ad
+{
+ color: white;
+ text-align: center;
+ font-size: 25px;
+ height: 251px;
+ width: 172px;
+ padding-top: 5px;
+ display: inline-block;
+ background-image: url("C:/Users/rac/Desktop/DojoAssignments/WebFundementals/Internet/images/images/images/ad_background.png");
+}
+#ninja
+{
+ height: 91px;
+ width: 81px;
+ margin-right: 35px;
+}
+#learn
+{
+ height: 26px;
+ width: 144px;
+ font-size: 16px;
+ background: linear-gradient(rgb(120,208,223),rgb(2,183,212));
+ margin-top: 26px;
+ margin-bottom: 10px;
+ border-radius: 5px;
+ display: inline-block;
+}
+#maintop
+{
+ height: 65px;
+ width: 772px;
+ margin-left: 10px;
+ vertical-align: top;
+ border-bottom: solid silver;
+ display: inline-block;
+}
+#maintop e
+{
+ font-size: 10px;
+}
+#maintop f
+{
+ font-size: 10px;
+}
+#maintop span
+{
+ font-size: 20px;
+ color: rgb(2,192,223);
+}
+#home
+{
+ height: 25px;
+ width: 25px;
+ margin-left: 30px;
+ margin-top: 12px;
+}
+#maintop p
+{
+ font-size: 23px;
+ color: rgb(1,192,223);
+}
+#contact
+{
+ vertical-align: top;
+ float: right;
+ text-align: right;
+ line-height: 16px;
+}
+#phone
+{
+ text-align: left;
+ height: 35px;
+ width: 35px;
+ margin-top: 9px;
+ margin-left: 500px;
+}
+#main
+{
+ height: 502px;
+ width: 727px;
+ margin-top: 21px;
+ margin-left: 30px;
+ display: inline-block;
+} 
+#footer
+{
+ display: inline-block;
+ height: 150px;
+ width: 706px;
+ border-left: solid blue;
+ border-top: solid blue;
+ border-right: solid blue;
+}
+#footer2
+{
+display: inline-block; 
+}
+#header1
+{
+ color: rgb(1,192,223);
+ font-size: 25px;
+ text-align: right;
+ vertical-align: top;
+}
+#header2
+{
+margin-right: 222px;
+vertical-align: top;
+display: inline-block;
+}
+#footer a
+{
+color: rgb(1,192,223);   
+}
+#client
+{
+ margin-left: 157px;
+ height: 66px;
+ width: 206px;
+}
+#html
+{
+display: inline-block;
+height: 85px;
+width: 85px;
+}
+#par b
+{
+ display: inline-block;
+ vertical-align: top;
+}
