@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Projects";
+}
+<h1>Today is: @ViewBag.time</h1>
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+
+<div class = "brand">
+        <h2>Snowboard Manufacturers 
+        </h2>
+        @{
+            var SnowBoards = new List<string>
+                {
+                    "RIDE",
+                    "K2",
+                    "Burton",
+                    "Arbor",
+                    "Libtech",
+                    "Gnu"
+                };
+            foreach(var word in SnowBoards)
+            {
+                <p class="word">@word</p>
+            }
+        }
+    </div>
+    <div class="brand">
+        <h2>Mountain Bike Manufacturers</h2>
+        @{
+            var MountainBikes = new List<string>
+                {
+                    "Kona",
+                    "Santa Cruz",
+                    "Devinci",
+                    "Norco",
+                    "Nuke Proof",
+                    "Lapierre",
+                    "Felt"
+                };
+            foreach(var word in MountainBikes)
+            {
+                <p class="word">@word</p>
+            }
+        }
+    </div>
+    <form class="form-group" action="survey" method="post">
+        <label class="dd1" name="name">Name:</label> 
+            <input type="text" class="dd" name="name">
+        <label class="dd1" name ="board">Board:</label> 
+            <select class="dd1" name="board">   
+                <option value="ride">RIDE</option>
+                <option value="k2">K2</option>
+                <option value="burton">Burton</option>
+                <option value="arbor">Arbor</option>
+                <option value="libtech">Lib Tech</option>
+                <option value="gnu">Gnu</option>
+            </select>
+        <label class="dd1" name ="bike">Bike:</label> 
+            <select class="dd1" name="bike">   
+                <option value="kona">kona</option>
+                <option value="Santacruz">Santa Cruz</option>
+                <option value="devinci">Devinci</option>
+                <option value="norco">Norco</option>
+                <option value="Nukeproof">Nuke Proof</option>
+                <option value="Lapierre">Lapierre</option>
+                <option value="felt">Felt</option>
+            </select>
+        <button>SUBMIT</button>
+    </form>
+</div>

@@ -1,0 +1,19 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers;
+@{
+    ViewData["Title"] = "Contact Me";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+@model Info
+<form class="form-group" asp-action="thanks" asp-controller="zebra"method="post">
+    <span asp-validation-for="fullname"></span>
+    <label asp-for="fullname"></label>
+        <input asp-for="fullname" type="text" class="dd">
+    <span asp-validation-for="email"></span>
+    <label asp-for="email"></label>
+        <input asp-for="email" type="text" class="dd" name="email">
+    <span asp-validation-for="message"></span>
+    <label asp-for="message"></label>
+        <input asp-for="message">
+    <button type="submit" value="submit">SEND</button>
+</form>

@@ -1,0 +1,11 @@
+C:\Users\rac\Desktop\DojoAssignments\C#\portfolio2\bin\Debug\netcoreapp2.0\portfolio2.deps.json
+C:\Users\rac\Desktop\DojoAssignments\C#\portfolio2\bin\Debug\netcoreapp2.0\portfolio2.runtimeconfig.json
+C:\Users\rac\Desktop\DojoAssignments\C#\portfolio2\bin\Debug\netcoreapp2.0\portfolio2.runtimeconfig.dev.json
+C:\Users\rac\Desktop\DojoAssignments\C#\portfolio2\bin\Debug\netcoreapp2.0\portfolio2.dll
+C:\Users\rac\Desktop\DojoAssignments\C#\portfolio2\bin\Debug\netcoreapp2.0\portfolio2.pdb
+C:\Users\rac\Desktop\DojoAssignments\C#\portfolio2\obj\Debug\netcoreapp2.0\portfolio2.csproj.CoreCompileInputs.cache
+C:\Users\rac\Desktop\DojoAssignments\C#\portfolio2\obj\Debug\netcoreapp2.0\portfolio2.AssemblyInfoInputs.cache
+C:\Users\rac\Desktop\DojoAssignments\C#\portfolio2\obj\Debug\netcoreapp2.0\portfolio2.AssemblyInfo.cs
+C:\Users\rac\Desktop\DojoAssignments\C#\portfolio2\obj\Debug\netcoreapp2.0\portfolio2.dll
+C:\Users\rac\Desktop\DojoAssignments\C#\portfolio2\obj\Debug\netcoreapp2.0\portfolio2.pdb
+C:\Users\rac\Desktop\DojoAssignments\C#\portfolio2\obj\Debug\netcoreapp2.0\portfolio2.csprojResolveAssemblyReference.cache

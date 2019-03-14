@@ -1,0 +1,24 @@
+@using portfolio2.Models
+@{
+    ViewData["Title"] = "Dochi";
+}
+<h1>Good news!!! your Dojodochi is alive and well</h1>
+<h2>Fullness: @ViewBag.fullness</h2>
+<h2>Happiness: @ViewBag.happiness</h2>
+<h2>Meals: @ViewBag.meals</h2>
+<h2>Energy: @ViewBag.energy</h2>
+<form class="form-group" asp-action="feed" asp-controller="dochi"method="post">
+    <button>FEED</button>
+</form>
+<form class="form-group" asp-action="play" asp-controller="dochi"method="post">
+    <button>PLAY</button>
+</form>
+<form class="form-group" asp-action="work" asp-controller="dochi"method="post">
+    <button>WORK</button>
+</form>
+<form class="form-group" asp-action="sleep" asp-controller="dochi"method="post">
+    <button>SLEEP</button>
+</form>
+
+
+
