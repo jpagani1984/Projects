@@ -1,0 +1,36 @@
+<html>
+    <head>
+            <style>
+                body 
+                {
+                background-color: chartreuse;
+                }
+                h1
+                {
+                color: black;
+                margin-left: 40px;
+                } 
+                #box
+                {
+                 
+                 height: 100px;
+                 width: 100px;
+                 margin-bottom: 5px;
+                 display: inline-block;
+                 text-align: center;
+                 border: solid black;  
+                 background-color: {{color}};  
+                }
+                </style>
+        <title>Template Test</title>
+    </head>
+    <body>
+        <h1>PLAY GROUND</h1>
+            {% for x in range(0, bananarama): %}
+            {{boxes}}
+            <div id ="box"></div>
+            {{times}}
+
+            {% endfor %}
+    </body>
+</html>

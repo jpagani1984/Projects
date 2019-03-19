@@ -1,0 +1,14 @@
+<html>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CSS/dojo_survey.css') }}">
+    <body>
+        <div id="wall">
+            <div id="formBox">
+                <p class="formFont">Name: {{session['name']}}</p>
+                <p class="formFont">Dojo Location: {{session['location']}}</p>
+                <p class="formFont">Favorite Language: {{session['language']}}</p>
+                <p class="formFont">Comment: {{session['comment']}}</p>
+                <a href='/survey'><button>GO BACK</button></a>
+            </div>
+        </div>
+    </body>
+</html>

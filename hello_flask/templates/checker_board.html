@@ -1,0 +1,49 @@
+<html>
+    <head>
+            <style>
+                *{
+                margin: 0;
+                padding:0;
+                }
+                body 
+                {
+                background-color: orangered;
+                }
+                h1
+                {
+                color: black;
+                margin-left: 40px;
+                } 
+                #box1 
+                {
+                 
+                 height: 100px;
+                 width: 100px;
+                 border: solid black;  
+                 background-color: {{color1}};  
+                }
+                #box2 
+                {
+                 
+                 height: 100px;
+                 width: 100px;
+                 border: solid black;  
+                 background-color: {{color2}};  
+                }
+                </style>
+        <title>Checker Board</title>
+    </head>
+    <body>
+        <h1>CHECKERS!!</h1>
+        <table style="width:100%">
+            {% for x in range(0, bananarama): %}
+            <tr>
+               {% for x in range(0, bananarama): %}   
+                <td id ="box1"></td>
+                <td id ="box2"></td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

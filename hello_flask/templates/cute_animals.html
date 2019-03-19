@@ -1,0 +1,23 @@
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>WOW Animals</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CSS/cute_animals.css') }}">
+</head>
+        <body>
+                {% for x in range(x): %}
+                <img src="{{ url_for('static', filename='corgi.jpg') }}">
+                <img src="{{ url_for('static', filename='images/fel.jpg') }}">
+                <img src="{{ url_for('static', filename='images/fire.jpg') }}">
+                <img src="{{ url_for('static', filename='images/frost_whelp.jpg') }}">
+                <img src="{{ url_for('static', filename='images/hydra.jpg') }}">
+                <img src="{{ url_for('static', filename='images/loque.jpg') }}">
+                <img src="{{ url_for('static', filename='images/mystic.jpg') }}">
+                <img src="{{ url_for('static', filename='images/ravesaur.jpg') }}">
+                <img src="{{ url_for('static', filename='images/shadow.jpg') }}">
+                <img src="{{ url_for('static', filename='images/xuen.jpg') }}">
+                {% endfor %}        
+          
+        </body>
+</html>

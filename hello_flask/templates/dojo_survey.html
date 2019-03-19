@@ -1,0 +1,35 @@
+<html>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CSS/dojo_survey.css') }}">
+    <body>
+        <div id="wall">
+            <div id="formBox">
+                <form id="formFormat" action="/submit" method="post" name="form">
+                    <label class="formFont" for="first_name">Name:{{session.name}} </label>
+                        <input type="text" class="dd" name="NAME">
+                        
+                        <div class="formFont"><label for="dojo">Dojo Location:{{session.location}} </label>
+                        <select class="dd1" name="Dojo Location">   
+                            <option value="San">San Jose</option>
+                            <option value="Bellevue">Bellevue</option>
+                            <option value="Silicon">Silicon Valley</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                        </select></div>
+                        
+                        <div class="formFont"><label for="language">Favorite language:{{session.language}}</label>
+                        <select class="dd2" name="Favorite Language">   
+                            <option value="CSS">CSS</option>
+                            <option value="Java">JAVA</option>
+                            <option value="HTML">HTML</option>
+                            <option value="Python">Python</option>
+                            <option value="All">ALL</option>
+                        </select></div>
+                        
+                        <div class="formFont"><label for="Comment">Comment (Optional):{{session.comment}}</label></div>
+                        <div><textarea id="cbox" name="comment" placeholder="Leave Us a Comment..."></textarea></div>
+                        <button id="submit">SUBMIT</button>
+                        
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
